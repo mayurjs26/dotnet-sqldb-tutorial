@@ -6,7 +6,7 @@
     "mssql1": {
       "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/githubactiondemo/databases/TodoDb",
       "type": "mssql.azure",
-      "connectionId": "MyDbConnectionToDo",
+      "connectionId": "MyDbConnectionToDo1",
       "secretStore": "LocalSecretsFile"
     }
   }

@@ -4,8 +4,9 @@
       "type": "secrets.user"
     },
     "mssql1": {
-      "type": "mssql.onprem",
-      "connectionId": "MyDbConnectionDemo",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/githubactiondemo/databases/GitHubActionSQLDemo",
+      "type": "mssql.azure",
+      "connectionId": "MyDbConnectionAzure1",
       "secretStore": "LocalSecretsFile"
     }
   }

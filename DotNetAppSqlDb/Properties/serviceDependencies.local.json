@@ -4,9 +4,9 @@
       "type": "secrets.user"
     },
     "mssql1": {
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/githubactiondemo/databases/GitHubActionSQLDemo",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/githubactiondemo/databases/TodoDb",
       "type": "mssql.azure",
-      "connectionId": "MyDbConnectionAzure1",
+      "connectionId": "MyDbConnectionToDo",
       "secretStore": "LocalSecretsFile"
     }
   }

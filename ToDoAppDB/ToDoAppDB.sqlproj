@@ -68,5 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Table.sql" />
+    <Build Include="dbo\Tables\ToDo.sql" />
   </ItemGroup>
 </Project>

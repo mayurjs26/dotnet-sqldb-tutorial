@@ -59,8 +59,14 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Snapshots" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Snapshots\ToDoAppDB_20200908_17-46-49.dacpac" />
+    <None Include="Snapshots\ToDoAppDB_20200909_12-38-41.dacpac" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\Table.sql" />
   </ItemGroup>
 </Project>
